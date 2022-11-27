@@ -1,0 +1,53 @@
+/* Show it's not fixed to the top */
+
+body {
+    min-height: 75rem;
+}
+
+.accesskey {
+    text-decoration: underline;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.nav-link {
+    padding: 5px 25px !important;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background: #ccc;
+    color: #333;
+}
+
+.dropdown-toggle.show {
+    background: #ccc;
+    color: #333;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.dropdown-menu {
+    margin-top: 0px !important;
+    background: #ccc;
+    border: 0px;
+    border-top-left-radius: 0px;
+}
